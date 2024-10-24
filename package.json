@@ -1,0 +1,22 @@
+{
+  "name": "libs-connection-pool",
+  "version": "1.0.1",
+  "description": "",
+  "main": "./dist/index.js",
+  "types": "./src/index.d.ts",
+  "scripts": {
+    "watch": "tsc -w",
+    "run": "node ./dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/redis": "^2.8.32",
+    "typescript": "^4.3.5"
+  },
+  "dependencies": {
+    "mysql2": "^2.3.3",
+    "sql-template-strings": "^2.2.2"
+  }
+}
